@@ -8,4 +8,4 @@ tags:
   - Testing
 ---
 Testing out the use of desktop shortcuts to speed up the process. Look at them:
-![[Pasted image 20241227200840.png]]
+![[Pasted image 20241227200840.png]]  ![](Pasted%20image%2020241228110510.png)
