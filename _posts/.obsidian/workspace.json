@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5fd3d4a2fa7a57a3",
+        "id": "7a82c2f95427a89e",
         "type": "tabs",
         "children": [
           {
-            "id": "66bfd3792e4d2432",
+            "id": "e067154df44a70ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-12-27-Testing-out-shortcut.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024-12-27-Testing-out-shortcut"
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:tag1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66bfd3792e4d2432",
+  "active": "e067154df44a70ec",
   "lastOpenFiles": [
+    "2024-12-27-testing-out-with-obsidian.md",
+    "assets/images/Pasted image 20241228111139.png",
+    "2024-12-27-Testing-out-shortcut.md",
     "assets/images/Pasted image 20241228110510.png",
     "assets/images/Pasted image 20241228105833.png",
     "assets/images",
