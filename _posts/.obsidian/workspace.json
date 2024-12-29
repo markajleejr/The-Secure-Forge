@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-12-27-testing-out-with-obsidian.md",
+                "file": "2024-12-27-Testing-out-shortcut.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-12-27-testing-out-with-obsidian"
+              "title": "2024-12-27-Testing-out-shortcut"
             }
           }
         ]
@@ -164,12 +164,13 @@
   },
   "active": "e067154df44a70ec",
   "lastOpenFiles": [
+    "Welcome.md",
+    "2024-12-27-testing-out-with-obsidian.md",
+    "2024-12-29-trying-to-figure-out-images-again.md",
     "2024-12-27-Testing-out-shortcut.md",
     "2024-12-27-experienced-cybersecurity-professional.md",
     "2024-12-27-First-attempt-at-automation-blog-post.md",
     "2024-12-27-testing-obsidian.md",
-    "2024-12-27-testing-out-with-obsidian.md",
-    "2024-12-29-trying-to-figure-out-images-again.md",
     "assets/images/Pasted image 20241229163410.png",
     "assets/images/Pasted image 20241228111139.png",
     "assets/images/Pasted image 20241228110510.png",
@@ -181,7 +182,6 @@
     "assests",
     "New folder",
     "Pasted image 20241227200840.png",
-    "Welcome.md",
     "Untitled.md"
   ]
 }
