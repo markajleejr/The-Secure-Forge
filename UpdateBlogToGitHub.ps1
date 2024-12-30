@@ -1,22 +1,3 @@
-# Variables
-$blogDirectory = "C:\Users\marka\The-Secure-Forge\_posts"
-$imageDirectory = "assets/images"
-
-# Step 1: Find all Markdown files
-Write-Host "Scanning Directory: $blogDirectory" -ForegroundColor Cyan
-$mdFiles = Get-ChildItem -Path $blogDirectory -Filter *.md -Recurse
-
-# Debugging: Log the number of files found
-if ($mdFiles.Count -eq 0) {
-    Write-Host "No Markdown files found in the directory." -ForegroundColor Red
-    exit 1
-} else {
-    Write-Host "Found $($mdFiles.Count) Markdown file(s) in the directory:" -ForegroundColor Green
-    foreach ($file in $mdFiles) {
-        Write-Host " - $($file.FullName)" -ForegroundColor Yellow
-    }
-}
-
 foreach ($file in $mdFiles) {
     # Read the content
     $content = Get-Content -Path $file.FullName -Raw
@@ -29,19 +10,25 @@ foreach ($file in $mdFiles) {
         Write-Host "Matches Found in File:" -ForegroundColor Green
         foreach ($match in $matches) {
             Write-Host " - Match: $($match.Value)" -ForegroundColor Green
+            Write-Host " - Captured Group: $($match.Groups[1].Value)" -ForegroundColor Cyan
         }
     } else {
         Write-Host "No Matches Found in File." -ForegroundColor Red
     }
 
-    # Replace image paths missing the directory with correct relative paths
-    # Use proper syntax for the replacement operation
-    $updatedContent = $content -replace '!\[\]\((Pasted%20image%20.*?\.(png|jpg|jpeg|gif))\)', '![Alt Text](/' + $imageDirectory + '/$1)'
+    # Apply the replacement logic
+    $updatedContent = $content -replace '!\[\]\((Pasted%20image%20.*?\.(png|jpg|jpeg|gif))\)', {
+        param($match)
+        # Debug: Log replacement operation
+        $replacement = "![Alt Text](/$imageDirectory/$($match.Groups[1].Value))"
+        Write-Host "Replacing: $($match.Value) with $replacement" -ForegroundColor Cyan
+        $replacement
+    }
 
     # Log the updated content for debugging
     Write-Host "Updated Content:`n$updatedContent" -ForegroundColor Cyan
 
-    # Write the updated content back to the file if changed
+    # Write the updated content back to the file if changes were made
     if ($content -ne $updatedContent) {
         Set-Content -Path $file.FullName -Value $updatedContent
         Write-Host "Updated image paths in $($file.FullName)" -ForegroundColor Green
@@ -49,6 +36,9 @@ foreach ($file in $mdFiles) {
         Write-Host "No Changes Made to $($file.FullName)" -ForegroundColor Yellow
     }
 }
+
+
+
 
 # Step 2: Push changes to GitHub
 $gitDirectory = "C:\Users\marka\The-Secure-Forge"
