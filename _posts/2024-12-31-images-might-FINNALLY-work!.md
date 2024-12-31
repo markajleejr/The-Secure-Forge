@@ -7,4 +7,4 @@ tags:
   - images
   - Testing
 ---
-I think I finally got images to work! Whoot again again again ![Alt Text](/assets/images/Pasted%20image%2020241231133219.png) image 2 ![Alt Text](/assets/images/Pasted%20image%2020241231144541.png)
+I think I finally got images to work! Whoot again again again ![Alt Text](/assets/images/Pasted%20image%2020241231133219.png) image 2 again ![Alt Text](/assets/images/Pasted%20image%2020241231144541.png) 

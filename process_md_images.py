@@ -51,7 +51,7 @@ try:
                     content = content.replace(f"![]({image_filename})", markdown_image)
                 
                     # Step 4: Copy the image to the static/images directory if it exists
-                    image_source = os.path.join(attachments_dir, image_filename)
+                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))
                     if os.path.exists(image_source):
                         shutil.copy(image_source, static_images_dir)
                         log_info(f"Copied image: {image_filename} to {static_images_dir}")
