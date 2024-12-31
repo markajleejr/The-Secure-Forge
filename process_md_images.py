@@ -37,19 +37,22 @@ try:
                     content = file.read()
 
                 # Step 2: Find all image links in the format ![](Pasted%20image%20<timestamp>.png)
-                images = re.findall(r'!\[\]\((Pasted%20image%20.*?\.(png|jpg|jpeg|gif))\)', content)
+                images = re.findall(r'Pasted%20image%20.*?\.(png|jpg|jpeg|gif)', content)
+                
+                if not images:
+                    log_info(f"No images found in {filename}.")
+                    continue
                 
                 # Step 3: Replace image links and ensure URLs are correctly formatted
                 for image in images:
-                    image_filename = image[0]
-                    markdown_image = f"![Alt Text](/assets/images/{image_filename.replace(' ', '%20')})"
-                    content = content.replace(f"![]({image_filename})", markdown_image)
+                    markdown_image = f"![Alt Text](/assets/images/{image.replace(' ', '%20')})"
+                    content = content.replace(f"![]({image})", markdown_image)
                     
                     # Step 4: Copy the image to the static/images directory if it exists
-                    image_source = os.path.join(attachments_dir, image_filename)
+                    image_source = os.path.join(attachments_dir, image)
                     if os.path.exists(image_source):
                         shutil.copy(image_source, static_images_dir)
-                        log_info(f"Copied image: {image_filename} to {static_images_dir}")
+                        log_info(f"Copied image: {image} to {static_images_dir}")
                     else:
                         log_error(f"Image not found: {image_source}")
 
