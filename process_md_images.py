@@ -50,13 +50,17 @@ try:
                     markdown_image = f"![Alt Text](/assets/images/{image_filename.replace(' ', '%20')})"
                     content = content.replace(f"![]({image_filename})", markdown_image)
                 
-                    # Step 4: Copy the image to the static/images directory if it exists
-                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))
+                    # Replace Step 4: Copy the image to the static/images directory if it exists
+                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))  # Decode %20 to spaces for local lookup
+                    destination_filename = image_filename.replace(' ', '%20')  # Encode spaces for GitHub Pages compatibility
+                    image_destination = os.path.join(static_images_dir, destination_filename)
+                    
                     if os.path.exists(image_source):
-                        shutil.copy(image_source, static_images_dir)
-                        log_info(f"Copied image: {image_filename} to {static_images_dir}")
+                        shutil.copy(image_source, image_destination)
+                        log_info(f"Copied and renamed image: {image_filename} to {destination_filename}")
                     else:
                         log_error(f"Image not found: {image_source}")
+
                 
                 # Step 5: Write the updated content back to the markdown file
                 with open(filepath, "w", encoding="utf-8") as file:
