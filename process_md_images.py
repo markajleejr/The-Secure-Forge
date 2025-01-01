@@ -13,15 +13,17 @@ def log_error(message):
 def log_info(message):
     print(f"INFO: {message}")
 
+def normalize_filename(filename):
+    # Replace spaces with underscores
+    return filename.replace(" ", "_").replace("%20", "_")
+
 try:
-    # Ensure all directories exist
+    # Ensure directories exist
     if not os.path.exists(posts_dir):
         raise FileNotFoundError(f"Posts directory not found: {posts_dir}")
-
     if not os.path.exists(attachments_dir):
         log_info(f"Attachments directory not found. Creating: {attachments_dir}")
         os.makedirs(attachments_dir)
-
     if not os.path.exists(static_images_dir):
         log_info(f"Static images directory not found. Creating: {static_images_dir}")
         os.makedirs(static_images_dir)
@@ -39,30 +41,30 @@ try:
                 # Step 2: Find all image links in the format ![](Pasted%20image%20<timestamp>.png)
                 images = re.findall(r'Pasted%20image%20.*?\.(?:png|jpg|jpeg|gif)', content)
 
-                
                 if not images:
                     log_info(f"No images found in {filename}.")
                     continue
-                
-                # Step 3: Replace image links and ensure URLs are correctly formatted
+
+                # Step 4: Normalize filenames, copy the images, and update Markdown references
                 for image in images:
-                    image_filename = image  # Directly use the matched full filename
-                    markdown_image = f"![Alt Text](/assets/images/{image_filename.replace(' ', '%20')})"
-                    content = content.replace(f"![]({image_filename})", markdown_image)
-                
-                    # Replace Step 4: Copy the image to the static/images directory if it exists
-                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))  # Decode %20 to spaces for local lookup
-                    destination_filename = image_filename.replace(' ', '%20')  # Encode spaces for GitHub Pages compatibility
-                    image_destination = os.path.join(static_images_dir, destination_filename)
-                    
+                    image_filename = image  # Original filename
+                    normalized_image_filename = normalize_filename(image_filename)  # Normalized filename
+
+                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))
+                    image_destination = os.path.join(static_images_dir, normalized_image_filename)
+
                     if os.path.exists(image_source):
                         shutil.copy(image_source, image_destination)
-                        log_info(f"Copied and renamed image: {image_filename} to {destination_filename}")
+                        log_info(f"Copied and normalized image: {image_filename} to {image_destination}")
                     else:
                         log_error(f"Image not found: {image_source}")
 
-                
-                # Step 5: Write the updated content back to the markdown file
+                    # Update Markdown to reference the normalized name
+                    markdown_image = f"![Alt Text](/assets/images/{normalized_image_filename})"
+                    content = content.replace(f"![]({image_filename})", markdown_image)
+                    content = content.replace(f"![]({image_filename.replace('%20', ' ')})", markdown_image)  # Handle unencoded spaces
+
+                # Step 5: Write the updated content back to the Markdown file
                 with open(filepath, "w", encoding="utf-8") as file:
                     file.write(content)
                 log_info(f"Updated content written to: {filename}")
