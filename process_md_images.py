@@ -59,10 +59,9 @@ try:
                     else:
                         log_error(f"Image not found: {image_source}")
 
-                    # Update Markdown to reference the normalized name
                     markdown_image = f"![Alt Text](/assets/images/{normalized_image_filename})"
                     content = content.replace(f"![]({image_filename})", markdown_image)
-                    content = content.replace(f"![]({image_filename.replace('%20', ' ')})", markdown_image)  # Handle unencoded spaces
+
 
                 # Step 5: Write the updated content back to the Markdown file
                 with open(filepath, "w", encoding="utf-8") as file:
