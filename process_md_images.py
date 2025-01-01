@@ -48,7 +48,7 @@ try:
                 # Step 3 and Step 4: Replace image links and copy files
                 for image in images:
                     normalized_image_filename = normalize_filename(image)
-                    markdown_image = f"![Alt Text](/The-Secure-Forge/assets/images/{normalized_image_filename})"
+                    markdown_image = f"![Alt Text](https://markajleejr.github.io/The-Secure-Forge/assets/images/{normalized_image_filename})"
                     content = content.replace(f"![]({image})", markdown_image)
 
                     image_source = os.path.join(attachments_dir, image.replace('%20', ' '))  # Decode %20 to spaces for local lookup
