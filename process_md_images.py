@@ -45,19 +45,23 @@ try:
                     log_info(f"No images found in {filename}.")
                     continue
 
-                # Step 4: Normalize filenames, copy the images, and update Markdown references
+                # Step 3: Replace image links and ensure URLs are correctly formatted
                 for image in images:
-                    image_filename = image  # Original filename
-                    normalized_image_filename = normalize_filename(image_filename)  # Normalized filename
-
-                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))
-                    image_destination = os.path.join(static_images_dir, normalized_image_filename)
-
+                    image_filename = image  # Directly use the matched full filename
+                    normalized_image_filename = image_filename.replace(" ", "_")  # Normalize filename
+                    markdown_image = f"![Alt Text](/The-Secure-Forge/assets/images/{normalized_image_filename})"  # Add /The-Secure-Forge prefix
+                    content = content.replace(f"![]({image_filename})", markdown_image)
+                
+                    # Copy the image to the static/images directory if it exists
+                    image_source = os.path.join(attachments_dir, image_filename.replace('%20', ' '))  # Decode %20 to spaces for local lookup
+                    image_dest = os.path.join(static_images_dir, normalized_image_filename)
+    
                     if os.path.exists(image_source):
-                        shutil.copy(image_source, image_destination)
-                        log_info(f"Copied and normalized image: {image_filename} to {image_destination}")
+                        shutil.copy(image_source, image_dest)
+                       log_info(f"Copied and normalized image: {image_filename} to {image_dest}")
                     else:
                         log_error(f"Image not found: {image_source}")
+
 
                     markdown_image = f"![Alt Text](/assets/images/{normalized_image_filename})"
                     content = content.replace(f"![]({image_filename})", markdown_image)
