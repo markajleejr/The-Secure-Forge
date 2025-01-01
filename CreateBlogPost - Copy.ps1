@@ -1,5 +1,6 @@
 # Variables
 $blogDirectory = "C:\Users\marka\The-Secure-Forge\_posts"
+$obsidianPath = "C:\Program Files\Obsidian\Obsidian.exe"
 $blogTitle = Read-Host "Enter the blog title"
 $date = Get-Date -Format "yyyy-MM-dd"
 $filename = "$blogDirectory\$date-$($blogTitle -replace '\s', '-').md"
@@ -26,5 +27,10 @@ tags: [tag1, tag2] # Replace with relevant tags
 Set-Content -Path $filename -Value $frontMatter
 Write-Host "Template added to $filename successfully." -ForegroundColor Green
 
-# Step 3: Open the File in Notepad
-Start-Process notepad.exe $filename
+# Step 3: Open the File in Obsidian
+if (Test-Path $obsidianPath) {
+    Start-Process -FilePath $obsidianPath -ArgumentList $blogDirectory
+    Write-Host "Opened Obsidian. Select the file to edit: $filename" -ForegroundColor Green
+} else {
+    Write-Host "Obsidian not found at $obsidianPath. Please check the path." -ForegroundColor Red
+}

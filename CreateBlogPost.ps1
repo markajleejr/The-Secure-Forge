@@ -17,11 +17,14 @@ if (Test-Path $filename) {
 # Step 2: Populate the .md File with Template
 $frontMatter = @"
 ---
-layout: post
 title: "$blogTitle"
+description: "Add a brief description of the post here."
+author: Mark A J Lee II
 date: "$date"
-categories: blog
+categories: [blog]
 tags: [tag1, tag2] # Replace with relevant tags
+pin: false
+media_subpath: '/posts/$fileDate'
 ---
 "@
 Set-Content -Path $filename -Value $frontMatter
