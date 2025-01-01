@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 ---
 
@@ -8,3 +9,15 @@
 ';
 
 /* append your custom style below */
+=======
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

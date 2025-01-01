@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Display GoatCounter pageviews -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -19,3 +20,26 @@
     }
   });
 </script>
+=======
+<!-- Display GoatCounter pageviews -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
+
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://{{ site.analytics.goatcounter.id }}.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  });
+</script>
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

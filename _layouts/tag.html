@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: page
 # The layout for Tag page
@@ -21,3 +22,28 @@ layout: page
     {% endfor %}
   </ul>
 </div>
+=======
+---
+layout: page
+# The layout for Tag page
+---
+
+{% include lang.html %}
+
+<div id="page-tag">
+  <h1 class="ps-lg-2">
+    <i class="fa fa-tag fa-fw text-muted"></i>
+    {{ page.title }}
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+  </h1>
+  <ul class="content ps-0">
+    {% for post in page.posts %}
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="dash flex-grow-1"></span>
+        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

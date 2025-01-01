@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 permalink: /robots.txt
 # The robots rules
@@ -8,3 +9,15 @@ User-agent: *
 Disallow: /norobots/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
+=======
+---
+permalink: /robots.txt
+# The robots rules
+---
+
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

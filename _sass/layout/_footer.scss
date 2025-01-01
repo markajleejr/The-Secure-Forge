@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @use '../abstracts/breakpoints' as bp;
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as mx;
@@ -34,3 +35,41 @@ footer {
     margin-bottom: 0;
   }
 }
+=======
+@use '../abstracts/breakpoints' as bp;
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as mx;
+@use '../abstracts/placeholders';
+
+footer {
+  background-color: var(--main-bg);
+  height: v.$footer-height;
+  border-top: 1px solid var(--main-border-color);
+
+  @extend %text-xs;
+
+  @include bp.lt(bp.get(lg)) {
+    @include mx.slide;
+
+    height: v.$footer-height-large;
+    padding: 1.5rem 0;
+  }
+
+  a {
+    @extend %text-highlight;
+
+    &:hover {
+      @extend %link-hover;
+    }
+  }
+
+  em {
+    @extend %text-highlight;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

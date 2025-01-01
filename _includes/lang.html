@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% comment %}
   Detect appearance language and return it through variable "lang"
 {% endcomment %}
@@ -8,3 +9,15 @@
 {% else %}
   {% assign lang = 'en' %}
 {% endif %}
+=======
+{% comment %}
+  Detect appearance language and return it through variable "lang"
+{% endcomment %}
+{% if site.data.locales[page.lang] %}
+  {% assign lang = page.lang %}
+{% elsif site.data.locales[site.lang] %}
+  {% assign lang = site.lang %}
+{% else %}
+  {% assign lang = 'en' %}
+{% endif %}
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

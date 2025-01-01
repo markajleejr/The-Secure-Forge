@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% comment %}
   Remove the line number of the code snippet.
 {% endcomment %}
@@ -8,3 +9,15 @@
   {% assign content = content | replace: '<td class="rouge-gutter gl"><pre class="lineno">', '<!-- <td class="rouge-gutter gl"><pre class="lineno">'%}
   {% assign content = content | replace: '</td><td class="rouge-code">', '</td> --><td class="rouge-code">' %}
 {% endif %}
+=======
+{% comment %}
+  Remove the line number of the code snippet.
+{% endcomment %}
+
+{% assign content = include.content %}
+
+{% if content contains '<td class="rouge-gutter gl"><pre class="lineno">' %}
+  {% assign content = content | replace: '<td class="rouge-gutter gl"><pre class="lineno">', '<!-- <td class="rouge-gutter gl"><pre class="lineno">'%}
+  {% assign content = content | replace: '</td><td class="rouge-code">', '</td> --><td class="rouge-code">' %}
+{% endif %}
+>>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa
