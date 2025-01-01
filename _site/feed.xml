@@ -1,0 +1,149 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/The-Secure-Forge/</id>
+  <title>The Secure Forge</title>
+  <subtitle>I am a Cyber Security professional with experience in both the energy and healthcare industries seeking an opportunity to leverage my knowledge and leadership experience. I have recently graduated from the Western Governors University with a master’s degree in cyber security. I am trained in multiple security tools (Splunk, Barracuda, Wireshark, Microsoft Azure), obtained certification in certified ethical hacker (CEH), and well versed in python. I spend countless hours expanding my knowledge of cyber security and educating myself on new tools. I have not only gained impressive cyber security skills but also a strong sense of leadership, volunteerism, and the importance of integrity through the Civil Air Patrol, the Air Force auxiliary. I am quick to learn new programs, adapt easily to new situations, and would be happy to work at any level as needed. I work well in a team or alone and I am excellent at researching new topics and explaining them to others. I am available by phone or Skype to further review my skills. I eagerly await your reply. I am available during the week at regular business hours.</subtitle>
+  <updated>2025-01-02T00:17:59+08:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>http://localhost:4000/The-Secure-Forge/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/The-Secure-Forge/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/The-Secure-Forge/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
+  <rights> © 2025 your_full_name </rights>
+  <icon>/The-Secure-Forge/assets/img/favicons/favicon.ico</icon>
+  <logo>/The-Secure-Forge/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>images might FINNALLY work!</title>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/images-might-FINNALLY-work!/" rel="alternate" type="text/html" title="images might FINNALLY work!" />
+    <published>2024-12-31T08:00:00+08:00</published>
+  
+    <updated>2024-12-31T08:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/The-Secure-Forge/posts/images-might-FINNALLY-work!/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/images-might-FINNALLY-work!/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>trying to figure out images again</title>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/trying-to-figure-out-images-again/" rel="alternate" type="text/html" title="trying to figure out images again" />
+    <published>2024-12-29T00:00:00+08:00</published>
+  
+    <updated>2024-12-29T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/The-Secure-Forge/posts/trying-to-figure-out-images-again/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/trying-to-figure-out-images-again/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>Here I am messing with images again2:</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Welcome to Jekyll!</title>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+    <published>2024-12-28T00:13:20+08:00</published>
+  
+    <updated>2024-12-28T00:13:20+08:00</updated>
+  
+    <id>http://localhost:4000/The-Secure-Forge/posts/welcome-to-jekyll/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/welcome-to-jekyll/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="jekyll" />
+    
+    <category term="update" />
+    
+  
+
+  <summary>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+YEAR-MONTH-DAY-title.MAR...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>testing out with obsidian</title>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/testing-out-with-obsidian/" rel="alternate" type="text/html" title="testing out with obsidian" />
+    <published>2024-12-27T00:00:00+08:00</published>
+  
+    <updated>2024-12-27T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/The-Secure-Forge/posts/testing-out-with-obsidian/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/testing-out-with-obsidian/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>what happend to my test?asdf?</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Testing Obsidian</title>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/testing-obsidian/" rel="alternate" type="text/html" title="Testing Obsidian" />
+    <published>2024-12-27T00:00:00+08:00</published>
+  
+    <updated>2024-12-27T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/The-Secure-Forge/posts/testing-obsidian/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/testing-obsidian/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>Look at me using obsidian to write this message. Whoot Whoot!</summary>
+
+  </entry>
+
+</feed>
+
+
