@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark # [light | dark]
+theme_mode: auto # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -192,23 +192,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:
-      path: "" # For all pages
-      type: pages
-    values:
-      layout: home # Use the "home" layout for the site root
-  - scope:
-      path: _drafts
-    values:
-      comments: false
-
-  - scope:
-      path: ""
-      type: tabs # Applies to collection defined as `tabs`
-    values:
-      layout: page
-      permalink: /:title/
-
 
 sass:
   style: compressed
