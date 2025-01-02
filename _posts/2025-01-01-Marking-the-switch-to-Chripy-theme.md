@@ -1,5 +1,5 @@
 ---
-title: Marking the switch to Chripy theme
+title: Marking the switch to Chripy theme!
 description: testing out chripy
 author: Mark A J Lee II
 date: 2025-01-01

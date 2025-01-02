@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @use '../abstracts/mixins' as *;
 
 ::-webkit-input-placeholder {
@@ -40,46 +39,3 @@
 :focus::placeholder {
   @include placeholder-focus;
 }
-=======
-@use '../abstracts/mixins' as *;
-
-::-webkit-input-placeholder {
-  @include placeholder;
-}
-
-::-moz-placeholder {
-  @include placeholder;
-}
-
-:-ms-input-placeholder {
-  @include placeholder;
-}
-
-::-ms-input-placeholder {
-  @include placeholder;
-}
-
-::placeholder {
-  @include placeholder;
-}
-
-:focus::-webkit-input-placeholder {
-  @include placeholder-focus;
-}
-
-:focus::-moz-placeholder {
-  @include placeholder-focus;
-}
-
-:focus:-ms-input-placeholder {
-  @include placeholder-focus;
-}
-
-:focus::-ms-input-placeholder {
-  @include placeholder-focus;
-}
-
-:focus::placeholder {
-  @include placeholder-focus;
-}
->>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa
