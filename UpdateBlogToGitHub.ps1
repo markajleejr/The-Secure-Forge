@@ -24,7 +24,12 @@ if ($currentRepository -ne "https://github.com/$expectedRepository") {
     Write-Host "Current repository ($currentRepository) does not match expected repository ($expectedRepository)." -ForegroundColor Yellow
     Write-Host "Updating repository URL..." -ForegroundColor Cyan
     git remote set-url origin "https://github.com/$expectedRepository"
-    Write-Host "Repository URL updated successfully." -ForegroundColor Green
+	if ($currentRepository -ne "https://github.com/$expectedRepository") {
+		Write-Host "Error: Failed to update repository to ($expectedRepository). It is still set too ($currentRepository)." -ForegroundColor Red
+		exit 1
+	} else{
+		Write-Host "Repository URL updated successfully." -ForegroundColor Green
+	}
 }
 
 # Validate and correct branch
@@ -35,11 +40,11 @@ if ($currentBranch -ne $expectedBranch) {
     git fetch origin
     git checkout $expectedBranch
     if ($LASTEXITCODE -ne 0) {
-        Write-Host "Failed to switch to branch $expectedBranch. Creating and setting up the branch..." -ForegroundColor Red
-        git checkout -b $expectedBranch
-        git push --set-upstream origin $expectedBranch
-    }
-    Write-Host "Switched to branch $expectedBranch successfully." -ForegroundColor Green
+        Write-Host "Error: Failed to update repository to ($expectedBranch). It is still set too ($currentBranch)." -ForegroundColor Red
+		exit 1
+    } else {
+		Write-Host "Switched to branch $expectedBranch successfully." -ForegroundColor Green
+	}
 }
 
 # Pull changes from remote to ensure synchronization
