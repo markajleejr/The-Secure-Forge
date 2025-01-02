@@ -23,7 +23,7 @@ author: Mark A J Lee II
 date: "$date"
 categories: [blog]
 tags: [tag1, tag2] # Replace with relevant tags
-pin: false
+pin: true
 media_subpath: '/posts/$fileDate'
 ---
 "@
