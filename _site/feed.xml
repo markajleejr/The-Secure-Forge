@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
-  <title>Chirpy</title>
-  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-01-02T11:28:58+08:00</updated>
+  <id>http://localhost:4000/The-Secure-Forge/</id>
+  <title>The Secure Forge</title>
+  <subtitle>I am a Cyber Security professional with experience in both the energy and healthcare industries seeking an opportunity to leverage my knowledge and leadership experience. I have recently graduated from the Western Governors University with a master’s degree in cyber security. I am trained in multiple security tools (Splunk, Barracuda, Wireshark, Microsoft Azure), obtained certification in certified ethical hacker (CEH), and well versed in python. I spend countless hours expanding my knowledge of cyber security and educating myself on new tools. I have not only gained impressive cyber security skills but also a strong sense of leadership, volunteerism, and the importance of integrity through the Civil Air Patrol, the Air Force auxiliary. I am quick to learn new programs, adapt easily to new situations, and would be happy to work at any level as needed. I work well in a team or alone and I am excellent at researching new topics and explaining them to others. I am available by phone or Skype to further review my skills. I eagerly await your reply. I am available during the week at regular business hours.</subtitle>
+  <updated>2025-01-01T23:08:06-05:00</updated>
   <author>
     <name>your_full_name</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>http://localhost:4000/The-Secure-Forge/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/The-Secure-Forge/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="http://localhost:4000/The-Secure-Forge/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
   <rights> © 2025 your_full_name </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/The-Secure-Forge/assets/img/favicons/favicon.ico</icon>
+  <logo>/The-Secure-Forge/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Marking the switch to Chripy theme!</title>
-    <link href="http://localhost:4000/posts/Marking-the-switch-to-Chripy-theme/" rel="alternate" type="text/html" title="Marking the switch to Chripy theme!" />
-    <published>2025-01-01T00:00:00+08:00</published>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/Marking-the-switch-to-Chripy-theme/" rel="alternate" type="text/html" title="Marking the switch to Chripy theme!" />
+    <published>2025-01-01T00:00:00-05:00</published>
   
-    <updated>2025-01-02T10:57:42+08:00</updated>
+    <updated>2025-01-01T21:57:42-05:00</updated>
   
-    <id>http://localhost:4000/posts/Marking-the-switch-to-Chripy-theme/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Marking-the-switch-to-Chripy-theme/" />
+    <id>http://localhost:4000/The-Secure-Forge/posts/Marking-the-switch-to-Chripy-theme/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/Marking-the-switch-to-Chripy-theme/" />
     <author>
       <name>Mark A J Lee II</name>
     </author>
@@ -45,13 +45,13 @@
   
   <entry>
     <title>images might FINNALLY work!!</title>
-    <link href="http://localhost:4000/posts/images-might-FINNALLY-work!/" rel="alternate" type="text/html" title="images might FINNALLY work!!" />
-    <published>2024-12-31T08:00:00+08:00</published>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/images-might-FINNALLY-work!/" rel="alternate" type="text/html" title="images might FINNALLY work!!" />
+    <published>2024-12-30T19:00:00-05:00</published>
   
-    <updated>2025-01-02T10:34:13+08:00</updated>
+    <updated>2025-01-01T21:34:13-05:00</updated>
   
-    <id>http://localhost:4000/posts/images-might-FINNALLY-work!/</id>
-    <content type="text/html" src="http://localhost:4000/posts/images-might-FINNALLY-work!/" />
+    <id>http://localhost:4000/The-Secure-Forge/posts/images-might-FINNALLY-work!/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/images-might-FINNALLY-work!/" />
     <author>
       <name>cotes</name>
     </author>
@@ -69,13 +69,13 @@
   
   <entry>
     <title>trying to figure out images again</title>
-    <link href="http://localhost:4000/posts/trying-to-figure-out-images-again/" rel="alternate" type="text/html" title="trying to figure out images again" />
-    <published>2024-12-29T00:00:00+08:00</published>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/trying-to-figure-out-images-again/" rel="alternate" type="text/html" title="trying to figure out images again" />
+    <published>2024-12-29T00:00:00-05:00</published>
   
-    <updated>2025-01-02T00:23:56+08:00</updated>
+    <updated>2025-01-01T11:23:56-05:00</updated>
   
-    <id>http://localhost:4000/posts/trying-to-figure-out-images-again/</id>
-    <content type="text/html" src="http://localhost:4000/posts/trying-to-figure-out-images-again/" />
+    <id>http://localhost:4000/The-Secure-Forge/posts/trying-to-figure-out-images-again/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/trying-to-figure-out-images-again/" />
     <author>
       <name>your_full_name</name>
     </author>
@@ -93,13 +93,13 @@
   
   <entry>
     <title>Welcome to Jekyll!</title>
-    <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
-    <published>2024-12-28T00:13:20+08:00</published>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+    <published>2024-12-27T11:13:20-05:00</published>
   
-    <updated>2025-01-02T00:23:56+08:00</updated>
+    <updated>2025-01-01T11:23:56-05:00</updated>
   
-    <id>http://localhost:4000/posts/welcome-to-jekyll/</id>
-    <content type="text/html" src="http://localhost:4000/posts/welcome-to-jekyll/" />
+    <id>http://localhost:4000/The-Secure-Forge/posts/welcome-to-jekyll/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/welcome-to-jekyll/" />
     <author>
       <name>your_full_name</name>
     </author>
@@ -123,13 +123,13 @@ YEAR-MONTH-DAY-title.MAR...</summary>
   
   <entry>
     <title>testing out with obsidian</title>
-    <link href="http://localhost:4000/posts/testing-out-with-obsidian/" rel="alternate" type="text/html" title="testing out with obsidian" />
-    <published>2024-12-27T00:00:00+08:00</published>
+    <link href="http://localhost:4000/The-Secure-Forge/posts/testing-out-with-obsidian/" rel="alternate" type="text/html" title="testing out with obsidian" />
+    <published>2024-12-27T00:00:00-05:00</published>
   
-    <updated>2025-01-02T00:23:56+08:00</updated>
+    <updated>2025-01-01T11:23:56-05:00</updated>
   
-    <id>http://localhost:4000/posts/testing-out-with-obsidian/</id>
-    <content type="text/html" src="http://localhost:4000/posts/testing-out-with-obsidian/" />
+    <id>http://localhost:4000/The-Secure-Forge/posts/testing-out-with-obsidian/</id>
+    <content type="text/html" src="http://localhost:4000/The-Secure-Forge/posts/testing-out-with-obsidian/" />
     <author>
       <name>your_full_name</name>
     </author>
