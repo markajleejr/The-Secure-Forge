@@ -146,7 +146,8 @@ GEM
     zeitwerk (2.7.1)
 
 PLATFORMS
-  x64-mingw-ucrt
+  universal-darwin-22
+  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
