@@ -148,9 +148,9 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (~> 5.0)
   jekyll (~> 4.3)
-  jekyll-theme-chirpy
+  jekyll-theme-chirpy (~> 7.2.4)
   tzinfo (>= 1.0)
-  tzinfo-data
+  tzinfo-data (>= 1.2021.5)
   wdm (~> 0.2.0)
 
 BUNDLED WITH
