@@ -148,9 +148,15 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (~> 5.0)
   jekyll (~> 4.3)
+<<<<<<< HEAD
   jekyll-theme-chirpy (~> 7.2.4)
   tzinfo (>= 1.0)
   tzinfo-data (>= 1.2021.5)
+=======
+  jekyll-theme-chirpy
+  tzinfo (>= 1.0)
+  tzinfo-data
+>>>>>>> 0c34969 (Fix dependencies and workflow)
   wdm (~> 0.2.0)
 
 BUNDLED WITH
