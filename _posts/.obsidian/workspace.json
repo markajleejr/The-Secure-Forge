@@ -11,10 +11,14 @@
             "id": "e067154df44a70ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-01-01-Marking-the-switch-to-Chripy-theme.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-01-01-Marking-the-switch-to-Chripy-theme"
             }
           }
         ]
@@ -160,35 +164,38 @@
   },
   "active": "e067154df44a70ec",
   "lastOpenFiles": [
-    "2025-01-01-Marking-the-switch-to-Chripy-theme.md",
-    "assets/images/Pasted image 20250101111943.png",
-    "2019-08-08-write-a-new-post.md",
     "2024-12-31-images-might-FINNALLY-work!.md",
-    "2019-08-09-getting-started.md",
-    "2019-08-08-text-and-typography.md",
-    "Welcome.md",
-    "2019-08-11-customize-the-favicon.md",
-    "assets/images/Pasted image 20241231225130.png",
+    "2025-01-01-Marking-the-switch-to-Chripy-theme.md",
+    "2025-01-01-Making-the-switch-to-Chripy-theme.md",
+    "assets/images/Pasted image 20250101111943.png",
     "assets/images/Pasted image 20241231224257.png",
+    "assets/images/Pasted image 20241231225130.png",
     "assets/images/Pasted image 20241231215933.png",
+    "assets/images/Pasted image 20241229163410.png",
     "assets/images/Pasted image 20241231215716.png",
+    "assets/images/Pasted image 20241228111139.png",
     "assets/images/Pasted image 20241231215128.png",
     "assets/images/Pasted image 20241231144611.png",
     "assets/images/Pasted image 20241231144541.png",
-    "assets/images/Pasted image 20241231133219.png",
-    "2024-12-27-testing-out-with-obsidian.md",
-    "2024-12-27-testing-obsidian.md",
-    "2024-12-27-Testing-out-shortcut.md",
-    "2024-12-29-trying-to-figure-out-images-again.md",
-    "2024-12-27-experienced-cybersecurity-professional.md",
-    "2024-12-27-First-attempt-at-automation-blog-post.md",
-    "assets/images/Pasted image 20241229163410.png",
     "assets/images",
     "assets",
+    "Welcome.md",
+    "Untitled.md",
+    "2024-12-29-trying-to-figure-out-images-again.md",
+    "2024-12-27-welcome-to-jekyll.markdown",
+    "2024-12-27-testing-out-with-obsidian.md",
+    "2024-12-27-testing-obsidian.md",
+    "2024-12-27-experienced-cybersecurity-professional.md",
+    "2024-12-27-Testing-out-shortcut.md",
+    "2024-12-27-First-attempt-at-automation-blog-post.md",
+    "2019-08-11-customize-the-favicon.md",
+    "2019-08-09-getting-started.md",
+    "2019-08-08-write-a-new-post.md",
+    "2019-08-08-text-and-typography.md",
+    "2024-12-31-images-might-FINNALLY-work!!.md",
     "assests/images",
     "assests/New folder",
     "assests",
-    "New folder",
-    "Untitled.md"
+    "New folder"
   ]
 }
