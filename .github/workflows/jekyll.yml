@@ -31,7 +31,14 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Install dependencies
+      - name: Debug Bundler and Dependencies
+        run: |
+          echo "Bundler version:"
+          bundle --version
+          echo "Gems list:"
+          gem list
+
+      - name: Install Dependencies
         run: bundle install
 
       - name: Build Jekyll site
@@ -41,14 +48,3 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
