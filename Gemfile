@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+gem 'csv'
+gem 'base64'
+
 # Specify Jekyll version compatible with Chirpy
 gem "jekyll", "~> 4.3"
 

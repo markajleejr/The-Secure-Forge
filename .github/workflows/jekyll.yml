@@ -83,15 +83,33 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Debug Bundler and Dependencies
-        run: |
-          echo "Bundler version:"
-          bundle --version
-          echo "Gems list:"
-          gem list
-
       - name: Install Dependencies
         run: bundle install
+
+      - name: Debug Environment
+        run: |
+          echo "Ruby version:"
+          ruby --version
+          echo "Bundler version:"
+          bundle --version
+          echo "Installed Gems:"
+          gem list
+
+      - name: Debug File System
+        run: |
+          echo "Current Directory:"
+          pwd
+          echo "List of Files:"
+          ls -la
+          echo "Content of _config.yml:"
+          cat _config.yml
+
+      - name: Debug Build Output
+        run: |
+          echo "Gemfile.lock content:"
+          cat Gemfile.lock
+          echo "Build Output:"
+          bundle exec jekyll build --trace
 
       - name: Build Jekyll site
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
