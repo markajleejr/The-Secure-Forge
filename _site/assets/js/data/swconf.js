@@ -1,16 +1,16 @@
 const swconf = {
   
-    cacheName: 'chirpy-1735786484',resources: [
-      '/The-Secure-Forge/assets/css/jekyll-theme-chirpy.css',
-      '/The-Secure-Forge/',
+    cacheName: 'chirpy-1735788539',resources: [
+      '/assets/css/jekyll-theme-chirpy.css',
+      '/',
       
-        '/The-Secure-Forge/categories/',
+        '/categories/',
       
-        '/The-Secure-Forge/tags/',
+        '/tags/',
       
-        '/The-Secure-Forge/archives/',
+        '/archives/',
       
-        '/The-Secure-Forge/about/',
+        '/about/',
       
 
       
