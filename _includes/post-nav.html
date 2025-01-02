@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- Navigation buttons at the bottom of the post. -->
 
 <nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
@@ -33,39 +32,3 @@
     </div>
   {% endif %}
 </nav>
-=======
-<!-- Navigation buttons at the bottom of the post. -->
-
-<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
-  {% assign previous = site.data.locales[include.lang].post.button.previous %}
-  {% assign next = site.data.locales[include.lang].post.button.next %}
-
-  {% if page.previous.url %}
-    <a
-      href="{{ site.baseurl }}{{ page.previous.url }}"
-      class="btn btn-outline-primary"
-      aria-label="{{ previous }}"
-    >
-      <p>{{ page.previous.title }}</p>
-    </a>
-  {% else %}
-    <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
-      <p>-</p>
-    </div>
-  {% endif %}
-
-  {% if page.next.url %}
-    <a
-      href="{{ site.baseurl }}{{page.next.url}}"
-      class="btn btn-outline-primary"
-      aria-label="{{ next }}"
-    >
-      <p>{{ page.next.title }}</p>
-    </a>
-  {% else %}
-    <div class="btn btn-outline-primary disabled" aria-label="{{ next }}">
-      <p>-</p>
-    </div>
-  {% endif %}
-</nav>
->>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa

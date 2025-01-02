@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {% comment %} Site static assets origin type {% endcomment %}
 
 {% assign type = 'cors' %}
@@ -12,18 +11,3 @@
     {% assign type = 'basic' %}
   {% endif %}
 {% endif %}
-=======
-{% comment %} Site static assets origin type {% endcomment %}
-
-{% assign type = 'cors' %}
-
-{% if site.assets.self_host.enabled %}
-  {% if site.assets.self_host.env %}
-    {% if site.assets.self_host.env == jekyll.environment %}
-      {% assign type = 'basic' %}
-    {% endif %}
-  {% else %}
-    {% assign type = 'basic' %}
-  {% endif %}
-{% endif %}
->>>>>>> 9eb2d32d95dda62e7f80def86a6c07c9a5b3c1fa
