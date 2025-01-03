@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About The Secure Forge
+title: About
 permalink: /about/
 ---
 
-# About The Secure Forge  
+# The Secure Forge  
 
 Welcome to *The Secure Forge*, where innovation and passion meet cybersecurity expertise. My name is Mark Lee, and this platform is a reflection of my journey, skills, and dedication to securing the digital frontier.  
 
