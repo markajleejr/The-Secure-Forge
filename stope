@@ -1,0 +1,414 @@
+[33mcommit d16b839d6c4cb5a8f80b1b5161a0680585ed6e7e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 21:24:29 2025 -0500
+
+    adsf
+
+UpdateBlogToGitHub.ps1
+
+[33mcommit 97dc777d4557a61e9b5ecdaa4f70b179f268dbe1[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 21:07:10 2025 -0500
+
+    please don't break
+
+ignore this index.markdown
+
+[33mcommit 11101ade9ff57cee9f9c8db5e70074193cf7594d[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 21:03:28 2025 -0500
+
+    living on a prayer
+
+_config.yml
+
+[33mcommit c45116cb75cd5f2675980cf4f6d330d64fb29733[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 20:54:35 2025 -0500
+
+    Not gonna work but will be better
+
+_posts/.obsidian/workspace.json
+_posts/2024-12-31-images-might-FINNALLY-work!.md
+
+[33mcommit 934bb9a4e5b50e8cf0c3d443a5b9df2ba9ef5d51[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 20:53:21 2025 -0500
+
+    please don't break again
+
+ignore _site/404.html
+ignore _site/CreateBlogPost - Copy.ps1
+ignore _site/CreateBlogPost.ps1
+ignore _site/UpdateBlogToGitHub.ps1
+ignore _site/about/index.html
+ignore _site/archives/index.html
+ignore _site/assets/css/jekyll-theme-chirpy.css
+ignore _site/assets/css/jekyll-theme-chirpy.css.map
+ignore _site/assets/images/Pasted image 20241228110510.png
+ignore _site/assets/images/Pasted image 20241228111139.png
+ignore _site/assets/images/Pasted image 20241229163410.png
+ignore _site/assets/images/Pasted image 20241231133219.png
+ignore _site/assets/images/Pasted image 20241231144541.png
+ignore _site/assets/images/Pasted image 20241231215128.png
+ignore _site/assets/images/Pasted image 20241231215716.png
+ignore _site/assets/images/Pasted_image_20241228110510.png
+ignore _site/assets/images/Pasted_image_20241228111139.png
+ignore _site/assets/images/Pasted_image_20241229163410.png
+ignore _site/assets/images/Pasted_image_20241231133219.png
+ignore _site/assets/images/Pasted_image_20241231144541.png
+ignore _site/assets/images/Pasted_image_20241231215933.png
+ignore _site/assets/images/Pasted_image_20241231224257.png
+ignore _site/assets/images/Pasted_image_20241231225130.png
+ignore _site/assets/images/Pasted_image_20250101111943.png
+ignore _site/assets/img/favicons/android-chrome-192x192.png
+ignore _site/assets/img/favicons/android-chrome-512x512.png
+ignore _site/assets/img/favicons/apple-touch-icon.png
+ignore _site/assets/img/favicons/browserconfig.xml
+ignore _site/assets/img/favicons/favicon-16x16.png
+ignore _site/assets/img/favicons/favicon-32x32.png
+ignore _site/assets/img/favicons/favicon.ico
+ignore _site/assets/img/favicons/mstile-150x150.png
+ignore _site/assets/img/favicons/site.webmanifest
+ignore _site/assets/index.html
+ignore _site/assets/js/data/mathjax.js
+ignore _site/assets/js/data/search.json
+ignore _site/assets/js/data/swconf.js
+ignore _site/backup_config.yml
+ignore _site/blog/index.html
+ignore _site/categories/blog/index.html
+ignore _site/categories/blogging/index.html
+ignore _site/categories/compliance/index.html
+ignore _site/categories/cybersecurity/index.html
+ignore _site/categories/demo/index.html
+ignore _site/categories/index.html
+ignore _site/categories/jekyll/index.html
+ignore _site/categories/tutorial/index.html
+ignore _site/categories/update/index.html
+ignore _site/feed.xml
+ignore _site/ignore this index.html
+ignore _site/index.html
+ignore _site/norobots/index.html
+ignore _site/posts/First-attempt-at-automation-blog-post/index.html
+ignore _site/posts/Marking-the-switch-to-Chripy-theme/index.html
+ignore _site/posts/Testing-out-shortcut/index.html
+ignore _site/posts/customize-the-favicon/index.html
+ignore _site/posts/experienced-cybersecurity-professional/index.html
+ignore _site/posts/getting-started/index.html
+ignore _site/posts/images-might-FINNALLY-work!/index.html
+ignore _site/posts/index.html
+ignore _site/posts/testing-obsidian/index.html
+ignore _site/posts/testing-out-with-obsidian/index.html
+ignore _site/posts/text-and-typography/index.html
+ignore _site/posts/trying-to-figure-out-images-again/index.html
+ignore _site/posts/welcome-to-jekyll/index.html
+ignore _site/posts/write-a-new-post/index.html
+ignore _site/process_md_images.py
+ignore _site/redirects.json
+ignore _site/robots.txt
+ignore _site/sitemap.xml
+ignore _site/tags/automation/index.html
+ignore _site/tags/blog/index.html
+ignore _site/tags/compliance/index.html
+ignore _site/tags/cybersecurity/index.html
+ignore _site/tags/favicon/index.html
+ignore _site/tags/first-try/index.html
+ignore _site/tags/getting-started/index.html
+ignore _site/tags/images/index.html
+ignore _site/tags/index.html
+ignore _site/tags/obsidian/index.html
+ignore _site/tags/risk-management/index.html
+ignore _site/tags/shortcut/index.html
+ignore _site/tags/tag1/index.html
+ignore _site/tags/tag2/index.html
+ignore _site/tags/testing/index.html
+ignore _site/tags/typography/index.html
+ignore _site/tags/writing/index.html
+index.html
+index.markdown
+
+[33mcommit 9381ff1fadd6fad135a7447069e4d5fa5fb317ab[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 20:48:01 2025 -0500
+
+    one more try again
+
+_posts/2025-01-01-Marking-the-switch-to-Chripy-theme.md
+
+[33mcommit 0bd3673f5a662f9779afb2abe2bf4d2cc832e61a[m
+Author: markajleejr <markajleejr@prodigy.net>
+Date:   Wed Jan 1 20:47:22 2025 -0500
+
+    don't do that half update bs
+
+404.html
+CreateBlogPost - Copy.ps1
+CreateBlogPost.ps1
+UpdateBlogToGitHub.ps1
+_config.yml
+_posts/.obsidian/app.json
+_posts/.obsidian/appearance.json
+_posts/.obsidian/community-plugins.json
+_posts/.obsidian/core-plugins.json
+_posts/.obsidian/graph.json
+_posts/.obsidian/plugins/obsidian-image-toolkit/main.js
+_posts/.obsidian/plugins/obsidian-image-toolkit/manifest.json
+_posts/.obsidian/plugins/obsidian-image-toolkit/styles.css
+_posts/.obsidian/workspace.json
+_posts/2024-12-27-First-attempt-at-automation-blog-post.md
+_posts/2024-12-27-Testing-out-shortcut.md
+_posts/2024-12-27-experienced-cybersecurity-professional.md
+_posts/2024-12-27-testing-obsidian.md
+_posts/2024-12-27-testing-out-with-obsidian.md
+_posts/2024-12-27-welcome-to-jekyll.markdown
+_posts/2024-12-29-trying-to-figure-out-images-again.md
+_posts/2024-12-31-images-might-FINNALLY-work!.md
+_posts/2025-01-01-Marking-the-switch-to-Chripy-theme.md
+_posts/Pasted image 20241227200840.png
+_posts/Untitled.md
+_posts/Welcome.md
+_posts/assets/images/Pasted image 20241228105833.png
+_posts/assets/images/Pasted image 20241228110510.png
+_posts/assets/images/Pasted image 20241228111139.png
+_posts/assets/images/Pasted image 20241229163410.png
+_posts/assets/images/Pasted image 20241231133219.png
+_posts/assets/images/Pasted image 20241231144541.png
+_posts/assets/images/Pasted image 20241231144611.png
+_posts/assets/images/Pasted image 20241231215128.png
+_posts/assets/images/Pasted image 20241231215716.png
+_posts/assets/images/Pasted image 20241231215933.png
+_posts/assets/images/Pasted image 20241231224257.png
+_posts/assets/images/Pasted image 20241231225130.png
+_posts/assets/images/Pasted image 20250101111943.png
+about.markdown
+assets/images/Pasted%20image%2020241228110510.png
+assets/images/Pasted%20image%2020241228111139.png
+assets/images/Pasted%20image%2020241229163410.png
+assets/images/Pasted%20image%2020241231133219.png
+assets/images/Pasted%20image%2020241231144541.png
+assets/images/Pasted%20image%2020241231215128.png
+assets/images/Pasted%20image%2020241231215716.png
+assets/images/Pasted_image_20241228110510.png
+assets/images/Pasted_image_20241228111139.png
+assets/images/Pasted_image_20241229163410.png
+assets/images/Pasted_image_20241231133219.png
+assets/images/Pasted_image_20241231144541.png
+assets/images/Pasted_image_20241231215933.png
+assets/images/Pasted_image_20241231224257.png
+assets/images/Pasted_image_20241231225130.png
+assets/images/Pasted_image_20250101111943.png
+assets/img/favicons/android-chrome-192x192.png
+assets/img/favicons/android-chrome-512x512.png
+assets/img/favicons/apple-touch-icon.png
+assets/img/favicons/favicon-16x16.png
+assets/img/favicons/favicon-32x32.png
+assets/img/favicons/favicon.ico
+assets/img/favicons/mstile-150x150.png
+backup_config.yml
+blog.markdown
+ignore this index.markdown
+index.html
+process_md_images.py
+
+[33mcommit e44c048aef1ab3201eff05450614a32e6ce4b6bb[m
+Merge: c12875f 5e41d87
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Sat Dec 21 19:22:37 2024 +0000
+
+    Merge branch 'production'
+
+[33mcommit 5e41d874b3b9f9b2a5f043858e824bd6a9fdd5a7[m[33m ([m[1;33mtag: [m[1;33mv7.2.4[m[33m, [m[1;31morigin/production[m[33m)[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Sat Dec 21 19:22:22 2024 +0000
+
+    chore(release): 7.2.4
+    
+    ## [7.2.4](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.2.3...v7.2.4) (2024-12-21)
+    
+    ### Bug Fixes
+    
+    * toc not visible when switching from mobile to desktop mode ([#2139](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2139)) ([32051da](https://github.com/cotes2020/jekyll-theme-chirpy/commit/32051dad03cb8f60fa4206969377b9674f9a3f0c))
+    * **ui:** left borderline of TOC is notched ([#2140](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2140)) ([8a4d0bc](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8a4d0bc4ee9e142a11401cad80bc9605878f121d))
+
+docs/CHANGELOG.md
+jekyll-theme-chirpy.gemspec
+package.json
+
+[33mcommit 774ee93d78f3d0da9ab6b3302399e014d33614df[m
+Merge: c174f62 8a4d0bc
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 22 03:21:28 2024 +0800
+
+    Release v7.2.4 (#2141)
+
+[33mcommit 8a4d0bc4ee9e142a11401cad80bc9605878f121d[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 22 03:11:20 2024 +0800
+
+    fix(ui): left borderline of TOC is notched (#2140)
+
+_includes/toc.html
+_sass/pages/_post.scss
+
+[33mcommit 1b93f6db9bc3e0c0895fcac10905512f7aadb9a9[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 22 02:32:03 2024 +0800
+
+    docs: update the setting name for the comments
+
+_posts/2019-08-08-write-a-new-post.md
+
+[33mcommit 32051dad03cb8f60fa4206969377b9674f9a3f0c[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 22 02:29:29 2024 +0800
+
+    fix: toc not visible when switching from mobile to desktop mode (#2139)
+
+_javascript/modules/components/toc.js
+_javascript/modules/components/toc/toc-desktop.js
+
+[33mcommit c12875fdba11610d3832eacda87a5ef0680d0d63[m
+Merge: f40fa6a c174f62
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Sun Dec 15 13:06:04 2024 +0000
+
+    Merge branch 'production'
+
+[33mcommit c174f62f268859645b8444d35f7cf87789eff28f[m[33m ([m[1;33mtag: [m[1;33mv7.2.3[m[33m)[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Sun Dec 15 13:05:48 2024 +0000
+
+    chore(release): 7.2.3
+    
+    ## [7.2.3](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.2.2...v7.2.3) (2024-12-15)
+    
+    ### Bug Fixes
+    
+    * refreshing mermaid theme may fail ([#2113](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2113)) ([2f00d41](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2f00d41861f1b06c2ff7fa4e67e14e647c3c34b0))
+    * **ui:** gap between TOC entries is inconsistent ([#2119](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2119)) ([1b4e318](https://github.com/cotes2020/jekyll-theme-chirpy/commit/1b4e318dc1cd57da812e11bf69ebb06083c213fc))
+    * **ui:** slow script loading hides TOC fade-up effect in desktop ([#2120](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2120)) ([e0c3faf](https://github.com/cotes2020/jekyll-theme-chirpy/commit/e0c3fafa470eb12bd04ffdf198018bc28b6de20d))
+
+docs/CHANGELOG.md
+jekyll-theme-chirpy.gemspec
+package.json
+
+[33mcommit e741aa43cf3db58de9aa3de09a6fc853295a2041[m
+Merge: 0360c9e e0c3faf
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 15 21:04:09 2024 +0800
+
+    Merge branch 'hotfix/7.2.3' into production
+
+[33mcommit e0c3fafa470eb12bd04ffdf198018bc28b6de20d[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 15 14:51:51 2024 +0800
+
+    fix(ui): slow script loading hides TOC fade-up effect in desktop (#2120)
+
+_sass/pages/_post.scss
+
+[33mcommit 1b4e318dc1cd57da812e11bf69ebb06083c213fc[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sun Dec 15 14:43:07 2024 +0800
+
+    fix(ui): gap between TOC entries is inconsistent (#2119)
+    
+    In desktop mode, H2 and the first sub-level H3 in the TOC are too close.
+
+_includes/toc.html
+_sass/pages/_post.scss
+
+[33mcommit 2f00d41861f1b06c2ff7fa4e67e14e647c3c34b0[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Thu Dec 12 01:24:37 2024 +0800
+
+    fix: refreshing mermaid theme may fail (#2113)
+
+_javascript/modules/components/mermaid.js
+
+[33mcommit f40fa6a13c9f870873e8ba80c8e08c5f85fe71f7[m
+Merge: 981ddba 0360c9e
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Fri Dec 6 17:04:04 2024 +0000
+
+    Merge branch 'production'
+
+[33mcommit 0360c9e90b58109e8329cde9d2160ffb33929a9f[m[33m ([m[1;33mtag: [m[1;33mv7.2.2[m[33m)[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Fri Dec 6 17:03:47 2024 +0000
+
+    chore(release): 7.2.2
+    
+    ## [7.2.2](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.2.1...v7.2.2) (2024-12-06)
+    
+    ### Bug Fixes
+    
+    * js files in subdirectories are excluded from the site output ([#2101](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2101)) ([f55cc31](https://github.com/cotes2020/jekyll-theme-chirpy/commit/f55cc31dbd0e7455328c80c7ef38186ad8e54099))
+
+docs/CHANGELOG.md
+jekyll-theme-chirpy.gemspec
+package.json
+
+[33mcommit d87c2de675288fd7ad5f70c854241fa348f71c42[m
+Merge: 7630356 f55cc31
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sat Dec 7 00:57:46 2024 +0800
+
+    Merge branch 'hotfix/7.2.2' into production
+
+[33mcommit f55cc31dbd0e7455328c80c7ef38186ad8e54099[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Sat Dec 7 00:55:47 2024 +0800
+
+    fix: js files in subdirectories are excluded from the site output (#2101)
+
+_config.yml
+
+[33mcommit 981ddba30e57934f9056b8d468f0d17db131e1e8[m
+Author: cheese <deanlemans5646@gmail.com>
+Date:   Thu Dec 5 14:38:06 2024 +0100
+
+    feat(i18n): add Dutch locale (#2076)
+
+_data/locales/nl-NL.yml
+
+[33mcommit 4925a58bf51012276ed8614ee560e0630bea4da6[m
+Merge: 976e1a1 7630356
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Thu Dec 5 13:34:00 2024 +0000
+
+    Merge branch 'production'
+
+[33mcommit 7630356a94668fa77df41189b0a952bc4582eb04[m[33m ([m[1;33mtag: [m[1;33mv7.2.1[m[33m)[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Thu Dec 5 13:33:44 2024 +0000
+
+    chore(release): 7.2.1
+    
+    ## [7.2.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.2.0...v7.2.1) (2024-12-05)
+    
+    ### Bug Fixes
+    
+    * **build:** exclude `purgecss.js` from output files ([#2090](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2090)) ([976e1a1](https://github.com/cotes2020/jekyll-theme-chirpy/commit/976e1a184b3dbe08991e8a50db4d5d7f8a0b7090))
+    * correct the import condition for theme script ([#2075](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2075)) ([a16aa7d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/a16aa7d41e3c3cb28649bfa1361e8bcb91b9ca47))
+    * ensure pageviews are fetched after DOM is loaded ([#2071](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2071)) ([b4019f3](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b4019f3517e4a3284df51567d29938cb12bf3acc))
+    * **toc:** resume fade up animation in desktop mode ([#2085](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2085)) ([8280adb](https://github.com/cotes2020/jekyll-theme-chirpy/commit/8280adb901b9d15cc1bc18009553aae8746121d8))
+
+docs/CHANGELOG.md
+jekyll-theme-chirpy.gemspec
+package.json
+
+[33mcommit 6c112c641af2f102fe3cce74841b6a996ea982ee[m
+Merge: 3df83fd 976e1a1
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Thu Dec 5 21:32:17 2024 +0800
+
+    Merge branch 'master' into production
+
+[33mcommit 976e1a184b3dbe08991e8a50db4d5d7f8a0b7090[m
+Author: Cotes Chung <11371340+cotes2020@users.noreply.github.com>
+Date:   Thu Dec 5 21:28:37 2024 +0800
+
+    fix(build): exclude `purgecss.js` from output files (#2090)
+
+_config.yml

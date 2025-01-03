@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://markajleejr.github.io/The-Secure-Forge/The-Secure-Forge/sitemap.xml
+Sitemap: http://localhost:4000/The-Secure-Forge/sitemap.xml
