@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I am a Cyber Security professional with experience in both the energy and healthcare industries seeking an opportunity to leverage my knowledge and leadership experience. I have recently graduated from the Western Governors University with a master’s degree in cyber security. I am trained in multiple security tools (Splunk, Barracuda, Wireshark, Microsoft Azure), obtained certification in certified ethical hacker (CEH), and well versed in python. I spend countless hours expanding my knowledge of cyber security and educating myself on new tools. I have not only gained impressive cyber security skills but also a strong sense of leadership, volunteerism, and the importance of integrity through the Civil Air Patrol, the Air Force auxiliary. I am quick to learn new programs, adapt easily to new situations, and would be happy to work at any level as needed. I work well in a team or alone and I am excellent at researching new topics and explaining them to others. I am available by phone or Skype to further review my skills. I eagerly await your reply. I am available during the week at regular business hours.
